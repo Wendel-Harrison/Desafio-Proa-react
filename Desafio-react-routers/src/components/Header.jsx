@@ -1,5 +1,5 @@
 import Logo from '../assets/imagens/viagens.jpg'
-import * as React from "react";
+
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons'
@@ -9,11 +9,11 @@ function Header() {
         <div className='flex justify-center gap-14 items-center'>
             <img src={Logo} className='w-20' />
 
-            <Link to=".." relative="path">Home</Link>
-            <p>Grand Canyon</p>
-            <p>Escócia</p>
-            <p>Muralhas da China</p>
-            <p>Aruba</p>
+            <ul>
+                <li>
+                    <Link to='/'>Home</Link>
+                </li>
+            </ul>
 
             <input type='text'className='border'  />
 
