@@ -11,19 +11,19 @@ function Header() {
             <Link to='/aa'><img src={Logo} className='w-20' /></Link>
 
             <ul className='flex justify-center gap-14 items-center'>
-                <li>
+                <li className='font-bold hover:scale-110 transition duration-300 text-slate-600 hover:text-slate-900'>
                     <Link to='/'>Home</Link>
                 </li>
-                <li>
-                <Link to='/canyon'>Grand Canyon</Link>
+                <li className='font-bold hover:scale-110 transition duration-300 text-slate-600 hover:text-slate-900'>
+                <Link to='/canyon' >Grand Canyon</Link>
                 </li>
-                <li>
+                <li className='font-bold hover:scale-110 transition duration-300 text-slate-600 hover:text-slate-900'>
                 <Link to='/escocia'>Escócia</Link>
                 </li>
-                <li>
+                <li className="font-bold hover:scale-110 transition duration-300 text-slate-600 hover:text-slate-900">
                 <Link to='/china'>Muralhas da China</Link>
                 </li>
-                <li>
+                <li className="font-bold hover:scale-110 transition duration-300 text-slate-600 hover:text-slate-900">
                 <Link to='/aruba'>Aruba</Link>
                 </li>
             </ul>
