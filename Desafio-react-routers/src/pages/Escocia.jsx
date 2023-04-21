@@ -1,12 +1,16 @@
 import React from 'react'
+import Details from '../components/Details'
 
 const Escocia = () => {
   return (
     <div>
-         <div className={`bg-canyon w-full h-[550px] bg-cover pt-14 `}>
+        <div className={`bg-escocia w-full h-[550px] bg-cover pt-14 `}>
     
-    <Details title="Grand Canyon" details="O Grand Canyon fica no estado do Arizona e é cortado pelo não tão timido assim Rio Colorado, e forma uma paisagem mais inponente e impactante pessoalmente do que qualquer imagem possa representar. Por isso mesmo, ele é um dos passeios mais procurados por quem visita Las Vegas, que fica no estado vizinho, Nevada" />
-    </div>
+            <Details
+              title="Escócia" 
+              details="Turismo na Escócia, localizado ao lado da Inglaterra, fica a Escócia, um dos países pertencentes ao Reino Unido. Que traz consigo uma grande carga histórica, lindas paisagens naturais e construções antigas, como seus castelos medievais." 
+            />
+        </div>
     </div>
   )
 }

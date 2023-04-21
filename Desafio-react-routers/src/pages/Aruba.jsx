@@ -1,8 +1,9 @@
 import React from 'react'
+import Details from '../components/Details'
 
 const Aruba = () => {
   return (
-    <div>Aruba</div>
+    
   )
 }
 

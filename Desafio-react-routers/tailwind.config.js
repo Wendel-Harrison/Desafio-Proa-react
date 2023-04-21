@@ -9,6 +9,9 @@ export default {
     extend: {
       backgroundImage: {
         'canyon': "url('assets/imagens/GrandCanyon.jpg')",
+        'escocia': "url('assets/imagens/Escocia.jfif')",
+        'china': "url('assets/imagens/Muralha.jpg')",
+        'aruba': "url('assets/imagens/Aruba.jpg')",
       }
     },
   },
