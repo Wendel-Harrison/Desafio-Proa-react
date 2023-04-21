@@ -38,7 +38,7 @@ const router = createBrowserRouter([
       {
         path: '/aruba',
         element: <Aruba />
-      },
+      }
       // nested routes = identificador unico
       
     ]

@@ -8,7 +8,7 @@ import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons'
 function Header() {
     return (
         <div className='flex justify-center gap-14 items-center'>
-            <img src={Logo} className='w-20' />
+            <Link to='/aa'><img src={Logo} className='w-20' /></Link>
 
             <ul className='flex justify-center gap-14 items-center'>
                 <li>
