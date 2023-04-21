@@ -6,7 +6,11 @@ export default {
 
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'canyon': "url('assets/imagens/GrandCanyon.jpg')",
+      }
+    },
   },
   plugins: [],
 }

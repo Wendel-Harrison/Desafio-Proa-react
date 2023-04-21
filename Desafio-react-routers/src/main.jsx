@@ -7,24 +7,11 @@ import './index.css'
 
 import { createBrowserRouter,RouterProvider } from 'react-router-dom'
 import Home from './pages/Home'
-import Contact from './pages/Contact'
+import Canyon from './pages/Canyon'
 import Error from './pages/ErrorPage'
-import ContactDetails from './pages/ContactDetails'
-
-
-
-
-
-// const router = createBrowserRouter([
-//   {
-//     path: '/',
-//     element: <Home />
-//   },
-//   {
-//     path: '/contact',
-//     element: <Contact />
-//   }
-// ])
+import Escocia from './pages/Escocia'
+import China from './pages/China'
+import Aruba from './pages/Aruba'
 
 const router = createBrowserRouter([
   {
@@ -37,14 +24,23 @@ const router = createBrowserRouter([
         element: <Home />
       },
       {
-        path: '/contact',
-        element: <Contact />
+        path: '/canyon',
+        element: <Canyon />
+      },
+      {
+        path: '/escocia',
+        element: <Escocia />
+      },
+      {
+        path: '/china',
+        element: <China />
+      },
+      {
+        path: '/aruba',
+        element: <Aruba />
       },
       // nested routes = identificador unico
-      {
-        path: '/contact/:id',
-        element: <ContactDetails />
-      }
+      
     ]
   },
   

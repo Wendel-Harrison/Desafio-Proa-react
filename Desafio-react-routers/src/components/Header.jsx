@@ -15,17 +15,16 @@ function Header() {
                     <Link to='/'>Home</Link>
                 </li>
                 <li>
-                <Link to='/contact'>Contatos</Link>
-
+                <Link to='/canyon'>Grand Canyon</Link>
                 </li>
                 <li>
-                    <p>Home</p>
+                <Link to='/escocia'>Escócia</Link>
                 </li>
                 <li>
-                    <p>Home</p>
+                <Link to='/china'>Muralhas da China</Link>
                 </li>
                 <li>
-                    <p>Home</p>
+                <Link to='/aruba'>Aruba</Link>
                 </li>
             </ul>
 
